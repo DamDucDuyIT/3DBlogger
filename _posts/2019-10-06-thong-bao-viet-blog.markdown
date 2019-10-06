@@ -3,7 +3,7 @@ layout: post
 title: Lần đầu tiên viết Blog
 date: 2019-10-06 21:00:30 +0300
 image: 13.jpg
-tags: Tâm sự
+tags: [Tâm sự]
 ---
 
 Xin chào mọi người, tôi là Đàm Đức Duy. Thời điểm tôi viết bài này chính là lúc tôi vừa hoàn thành tất cả chương trình học trong trường đại học để không vướng bận điều gì cả. Và viết blog là một dự định tôi đã ấp ủ từ lâu và bây giờ mới có cơ hội để thực hiện.
