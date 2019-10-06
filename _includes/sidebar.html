@@ -44,15 +44,10 @@
       </li>
       {% else %} {% endif %}
 
-      {% if site.pinterest %}
-      <li class="social-profiles-item">
-        <a href="{{ site.pinterest }}" class="social-profiles-link"><i class="ion ion-logo-pinterest"></i></a>
-      </li>
-      {% else %} {% endif %}
     </ul>
   </div>
 
-  <div class="widget widget-newsletter">
+  <!-- <div class="widget widget-newsletter">
     <h3 class="widget-title">Newsletter</h3>
     <div class="newsletter-subtitle">Get Interesting News</div>
     <div class="newsletter-text">Receive the latest news via email.</div>
@@ -67,9 +62,9 @@
         <input class="newsletter-button" id="mc-embedded-subscribe" type="submit" name="subscribe" value="Subscribe">
       </div>
     </form>
-  </div>
+  </div> -->
 
-  {% if site.instafeed == true %}
+  <!-- {% if site.instafeed == true %}
   <div class="widget widget-instagram">
     <h3 class="widget-title">Instagram</h3>
     <div class="instagram-box">
@@ -77,10 +72,10 @@
       <a class="instagram-prof" href="#">&#64;UserName</a>
     </div>
   </div>
-  {% endif %}
+  {% endif %} -->
 
   <div class="widget widget-tags">
-    <h3 class="widget-title">Tag Cloud</h3>
+    <h3 class="widget-title">Danh sách Tag</h3>
     {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{%
     endcapture %} {% assign tag_words = site_tags | split:',' | sort %}
     <ul class="tag-list list-reset">
