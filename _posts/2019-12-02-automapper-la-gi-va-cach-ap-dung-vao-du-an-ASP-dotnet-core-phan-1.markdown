@@ -2,13 +2,15 @@
 layout: post
 title: AutoMapper là gì và cách áp dụng vào dự án ASP.NET Core - Phần 1
 date: 2019-12-02 12:00:30 +0300
-image: 14.jpg
+image: 16.jpg
 tags: [csharp, dotnet, back-end]
 ---
 
 Rất có thể nhiều lập trình viên đã nghe về khái niệm AutoMapper trong lúc lập trình back-end cho những hệ thống website. Tuy nhiên, lí do tại sao chúng ta nên áp dụng thư viện này trong quá trình thiết kế Web API và những tiện ích thực sự mà nó mang lại thì khá là mơ hồ cho những bạn chưa thực sự áp dụng nó. Do đó, lần này mình sẽ dùng một số trải nghiệm sau một quãng thời gian "lăn lộn" với bộ thư viện này để giúp mọi người hiểu rõ hơn về nó.
 
 Vậy AutoMapper là gì? Theo định nghĩa trên [trang chủ][automapper-docs] của nó thì là "AutoMapper is a simple little library built to solve a deceptively complex problem - getting rid of code that mapped one object to another". E hèm, với trình độ anh văn kha khá của mình thì ý nghĩa của đoạn trên thì thư viện này hỗ trợ map data từ một Object sang 1 Object khác. Đến đây, sẽ có một số người không hiểu, map data là gì, và tại sao phải map data, không phải muốn tạo 1 object mới thì mình khai báo nó bằng object cũ rồi xuất ra là OK sao. Tuy nhiên, map data ở đây không có ý nghĩa là chuyển data y chang từ "đây" sang "kia" mà trong đó còn yêu cầu biến đổi data cho phù hợp.
+
+![]({{site.baseurl}}/img/14.jpg)
 
 Để mình cho một ví dụ cụ thể. Team mình có hai team, chia ra front-end và back-end cùng làm một hệ thống quản lý học sinh. Hệ thống khá là lớn, nhưng ở đây mình chỉ ví dụ vài bảng chính thôi, đó chính là bảng Student và bảng Major. Sau một hồi bàn luận, anh chị em trong team quyết định dùng Microsoft SQL để thiết kế database(mặc dù mình cũng đề xuất dùng MongoDB đi T-T). Ah, dự án này mình dùng ASP.Net Core để lập trình back-end nha.
 
