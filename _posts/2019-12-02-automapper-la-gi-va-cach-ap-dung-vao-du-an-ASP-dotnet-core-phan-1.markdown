@@ -3,7 +3,7 @@ layout: post
 title: AutoMapper là gì và cách áp dụng vào dự án ASP.NET Core - Phần 1
 date: 2019-12-02 12:00:30 +0300
 image: 14.jpg
-tags: [csharp, dotnet, back-end, csharp]
+tags: [csharp, dotnet, back-end]
 ---
 
 Rất có thể nhiều lập trình viên đã nghe về khái niệm AutoMapper trong lúc lập trình back-end cho những hệ thống website. Tuy nhiên, lí do tại sao chúng ta nên áp dụng thư viện này trong quá trình thiết kế Web API và những tiện ích thực sự mà nó mang lại thì khá là mơ hồ cho những bạn chưa thực sự áp dụng nó. Do đó, lần này mình sẽ dùng một số trải nghiệm sau một quãng thời gian "lăn lộn" với bộ thư viện này để giúp mọi người hiểu rõ hơn về nó.
