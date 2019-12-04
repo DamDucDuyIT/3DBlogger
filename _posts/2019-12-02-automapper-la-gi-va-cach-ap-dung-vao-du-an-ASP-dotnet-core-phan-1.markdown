@@ -200,10 +200,13 @@ Nếu MappingProfile còn đang đỏ hoặc lỗi, thì các bạn đừng lo l
     {
         public MappingProfile()
         {
-		    CreateMap<Student, StudentResource>()
-                .ForMember(sr => sr.FullName, opt => opt.MapFrom(s => s.LastName + " " + s.FirstName))
-                .ForMember(sr => sr.DateOfBirth, opt => opt.MapFrom(s => s.DateOfBirth.ToString("dd/MM/yyyy")))
-                .ForMember(sr => sr.MajorName, opt => opt.MapFrom(s => s.Major.Name));
+            CreateMap<Student, StudentResource>()
+                .ForMember(dr => dr.FullName,
+                    opt => opt.MapFrom(d => d.LastName + " " + d.FirstName))
+                .ForMember(dr => dr.DateOfBirth,
+                    opt => opt.MapFrom(d => d.DateOfBirth.ToString("dd/MM/yyyy")))
+                .ForMember(dr => dr.MajorName,
+                    opt => opt.MapFrom(d => d.Major.Name));
 		}
 	}
 {% endhighlight %}
