@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Áp dụng MongoDB Driver vào Dotnet Core API
-date: 2019-12-02 12:00:30 +0300
+date: 2019-04-26 12:00:30 +0300
 image: 20.jpg
 tags: [csharp, dotnet, back-end, mongodb]
 ---
