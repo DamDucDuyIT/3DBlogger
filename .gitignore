@@ -2,3 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 *.DS_Store
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/3DBlog/v16/.suo
