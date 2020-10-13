@@ -4,8 +4,8 @@
 
 title: 3DBlog
 description: # this means to ignore newlines until "baseurl:"
-baseurl: "/3DBlog" # the subpath of your site, e.g. /blog
-url: "https://damducduyit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ducduyblog.cf" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # About Section
@@ -18,7 +18,6 @@ facebook: https://facebook.com/damducduy1995 # Add your Facebook handle
 twitter: https://twitter.com/DDuyDev # Add your Facebook handle
 instagram: https://www.instagram.com/duc_duy.95/ # Add your Facebook handle
 pinterest: https://www.pinterest.com/ # Add your Facebook handle
-
 
 #-------------------------------
 # Comment Section (Disqus)
